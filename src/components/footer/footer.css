@@ -1,0 +1,28 @@
+.footer {
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+    background-color: var( --color-primary);
+}
+
+.footer__list {
+    margin-bottom: 3rem;
+}
+
+.footer__list,
+.footer__socials {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.footer__link {
+    color: var(--color-bg-variant);
+
+}
+
+.footer__social-link {
+    padding: 0.7rem;
+    background-color: var(--color-bg);
+    color: var(--color-light);
+    border-radius: 0.7rem;
+}

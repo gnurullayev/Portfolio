@@ -60,15 +60,13 @@
 
 @media only screen and (max-width:1024px){
     .header {
-        height: 87vh;
-        border:  1px solid red;
+        height: 75vh;
     }
 }
 
 @media only screen and (max-width:600px){
     .header {
         height: 100vh;
-        border:  1px solid green;
     }
 
     .header__socials,

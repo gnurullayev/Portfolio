@@ -1,13 +1,16 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import "./nav.css"
 import {AiFillHome } from 'react-icons/ai';
 import {AiOutlineUser } from 'react-icons/ai';
 import {BiBookBookmark } from 'react-icons/bi';
 import {RiProjectorFill } from 'react-icons/ri';
 import {TbMessage } from 'react-icons/tb';
+import { ActiveCreateContext } from '../../context/ActiveContekst';
+
 function Nav() {
 
-    const [active, setActive] = useState("home")
+    const {active, setActive} = useContext(ActiveCreateContext)
+
 
     const activeHandler = (value) => {
         setActive(value)

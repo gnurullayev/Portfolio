@@ -15,7 +15,7 @@ function App() {
       <Experience/>
       <Portfolio/>
       <Contact/>
-      <Footer/>
+      <Footer onClick = {"alisher"} salom = {"salom"}/>
     </div>
   );
 }
