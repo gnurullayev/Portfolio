@@ -5,10 +5,6 @@ import ME from "../../assets/IMG_20210325_101154_362.jpg"
 import HeaderSocials from './HeaderSocials';
 import { ActiveCreateContext } from '../../context/ActiveContekst';
 
-
-
-
-
 function Header(props) {
     const {setActive} = useContext(ActiveCreateContext)
 

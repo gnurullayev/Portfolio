@@ -23,8 +23,8 @@ function Portfolio(props) {
                         <h3 className="portfolio__item-title">Website for movies</h3>
 
                         <div className="portfolio__item-cta">
-                            <a href="https://github.com/gnurullayev" className="btn" target= "_blank">GitHub</a>
-                            <a href="https://tweeter-clone-two.vercel.app/" className="btn btn-primary" target= "_blank">Live Demo</a>
+                            <a href="https://github.com/gnurullayev/omdbAPI" className="btn" target= "_blank">GitHub</a>
+                            <a href="https://omdb-api-lemon.vercel.app/" className="btn btn-primary" target= "_blank">Live Demo</a>
                         </div>
                     </li>
 
