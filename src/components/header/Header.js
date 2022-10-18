@@ -1,11 +1,11 @@
 import {useContext} from 'react';
 import "./header.css"
-import CV from "../../assets/Profile.pdf"
+import CV from "../../assets/resume.pdf"
 import ME from "../../assets/IMG_20210325_101154_362.jpg"
 import HeaderSocials from './HeaderSocials';
 import { ActiveCreateContext } from '../../context/ActiveContekst';
 
-function Header(props) {
+function Header() {
     const {setActive} = useContext(ActiveCreateContext)
 
     const activeHandler = (value) => {

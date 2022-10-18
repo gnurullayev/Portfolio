@@ -38,7 +38,7 @@ function About() {
                     </ul>
 
                     <p className="about__desc">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, temporibus atque! Ex, cupiditate quasi porro soluta magnam nisi necessitatibus 
+                        I can help you create a variety of great responsive websites
                     </p>
 
                     <a href="#contact" className="btn btn-primary">Let's Talk</a>
