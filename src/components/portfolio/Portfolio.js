@@ -79,6 +79,19 @@ function Portfolio(props) {
                             <a href="https://tweeter-clone-two.vercel.app/" className="btn btn-primary" target= "_blank">Live Demo</a>
                         </div>
                     </li>
+
+                    <li className="portfolio__item">
+                        <div className="portfolio__item-image">
+                            <img className="portfolio__img" src= {img5} alt="portfolio img"  />
+                        </div>
+                        
+                        <h3 className="portfolio__item-title">Twitter clone</h3>
+                        
+                        <div className="portfolio__item-cta">
+                            <a href="https://github.com/gnurullayev/youtube" className="btn" target= "_blank">GitHub</a>
+                            <a href="https://youtube-mu-ten.vercel.app/" className="btn btn-primary" target= "_blank">Live Demo</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
