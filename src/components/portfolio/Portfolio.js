@@ -7,6 +7,8 @@ import img2 from "../../assets/portfolio2.jpg"
 import img3 from "../../assets/portfolio3.jpg"
 import img4 from "../../assets/portfolio4.jpg"
 import img5 from "../../assets/portfolio5.jpg"
+import img6 from "../../assets/youtube.jpg"
+
 function Portfolio(props) {
     return (
         <section id='portfolio'>
@@ -82,7 +84,7 @@ function Portfolio(props) {
 
                     <li className="portfolio__item">
                         <div className="portfolio__item-image">
-                            <img className="portfolio__img" src= {img5} alt="portfolio img"  />
+                            <img className="portfolio__img" src= {img6} alt="portfolio img"  />
                         </div>
                         
                         <h3 className="portfolio__item-title">Twitter clone</h3>
