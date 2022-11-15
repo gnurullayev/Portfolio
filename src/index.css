@@ -27,6 +27,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -38,6 +39,7 @@ body {
   background-color: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
+  overflow-x: hidden;
 }
 
 /* GENEARL STYLES */

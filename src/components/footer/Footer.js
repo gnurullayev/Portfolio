@@ -1,10 +1,23 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {useContext} from 'react';
+import {motion} from "framer-motion"
 import "./footer.css"
 import { FaGithubSquare } from 'react-icons/fa';
 import {BsLinkedin } from 'react-icons/bs';
 import {FaTwitterSquare } from 'react-icons/fa';
 import { ActiveCreateContext } from '../../context/ActiveContekst';
+
+const textAnimation = {
+    hidden: {
+        y:100,
+        opacity:0,
+    },
+    visible: custom => ( {
+        y: 0,
+        opacity:1,
+        transition: {delay: custom * 0.2}
+    })
+}
 
 function Footer() {
 
@@ -16,10 +29,14 @@ function Footer() {
     }
 
     return (
-        <footer className='footer'>
+        <motion.footer
+        initial="hidden"
+        whileInView="visible"
+        className='footer'
+        >
             <div className="footer__container container">
                 <div className="footer__inner">
-                    <ul className='footer__list'>
+                    <motion.ul custom={1} variants={textAnimation} className='footer__list'>
                         <li className="footer__item">
                             <a 
                              onClick={() => activeHandler("home")}
@@ -65,9 +82,9 @@ function Footer() {
                                 Contact
                             </a>
                         </li> 
-                    </ul>
+                    </motion.ul>
 
-                    <ul className="footer__socials socials">
+                    <motion.ul custom={2} variants={textAnimation} className="footer__socials socials">
                         <li className='footer__social-item'>
                             <a className='footer__social-link' href="https://www.linkedin.com/in/g-ayrat-nurullayev-481b2b245/" target="_blank"><BsLinkedin/></a>
                         </li>
@@ -79,10 +96,10 @@ function Footer() {
                         <li className='footer__social-item'>
                             <a className='footer__social-link' href="https://twitter.com/home" target="_blank"><FaTwitterSquare/></a>
                         </li>
-                    </ul>
+                    </motion.ul>
                 </div>
             </div>
-        </footer>
+        </motion.footer>
     );
 }
 
