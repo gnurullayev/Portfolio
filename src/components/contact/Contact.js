@@ -87,7 +87,7 @@ function Contact() {
                         <BsMessenger className='contact__item-icon'/>
                         <h4 className='contact__item-title'>Messenger</h4>
                         <h5 className='contact__item-subtitle'>egatortutorials</h5>
-                        <a href="hhtps://m.me/gayrat.nurullayev.79" className="contact__item-link">Send a message</a>
+                        <a href="https://m.me/gayrat.nurullayev.79" className="contact__item-link">Send a message</a>
                     </li>
                 </motion.ul>
 
