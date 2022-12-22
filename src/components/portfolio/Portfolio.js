@@ -9,6 +9,7 @@ import img4 from "../../assets/portfolio4.jpg"
 import img5 from "../../assets/portfolio5.jpg"
 import img6 from "../../assets/portfolio6.jpg"
 import img7 from "../../assets/portfolio7.jpg"
+import img8 from "../../assets/youtube.jpg"
 
 const textAnimation = {
     hidden: {
@@ -139,6 +140,19 @@ function Portfolio(props) {
                         <div className="portfolio__item-cta">
                             <a href="https://github.com/gnurullayev/vue-todo" className="btn" target= "_blank">GitHub</a>
                             <a href="https://vue-todo-chi.vercel.app/" className="btn btn-primary" target= "_blank">Live Demo</a>
+                        </div>
+                    </motion.li>
+
+                    <motion.li custom={10} variants={boxRightContentAnimation} className="portfolio__item">
+                        <div className="portfolio__item-image">
+                            <img className="portfolio__img" src= {img8} alt="portfolio img"  />
+                        </div>
+                        
+                        <h3 className="portfolio__item-title">Youtube</h3>
+                        
+                        <div className="portfolio__item-cta">
+                            <a href="https://github.com/gnurullayev/youtube" className="btn" target= "_blank">GitHub</a>
+                            <a href="https://youtube-mu-ten.vercel.app/" className="btn btn-primary" target= "_blank">Live Demo</a>
                         </div>
                     </motion.li>
                 </ul>
